@@ -23,8 +23,8 @@ Besides, I make a brief introduction to the selected features as follows.
 * Symbol (str): The symbol of the token.
 * Chain (str): The blockchain that the project first deploys.
 * Category (str): The Category that the project belongs to.
-* TVL (float): Total value locked in Billion.
-* Mkt_Cap (float): The market capital of the token in Billion.
+* TVL (float): Total value locked refers to the total money (USD in billion) that investors deposit in the project.
+* Mkt_Cap (float): The market capital of the token (USD in billion).
 * MC/TVL (float): The ratio of Mkt_Cap to TVL.
 * Cir_Supply (int): The number of tokens that are circulating in the market and are in public hands.
 * Total_Supply (int): The number of tokens that have been already created, minus any coins that have been burned.
@@ -51,7 +51,7 @@ After achieving the goal, I want to share some observations on this demo dataset
 
 1. About the next potential tokens:  
 All Defi projects on BSC have higher returns. This result may have a bias as the period of the data collection is within this year. These BSC projects start late so that most of the increase is within this year.  
-TVL indicates the quality of the projects. The higher quality of the project, the more people are willing to deposit the money in this project. Mkt_Cap represents the market capitalization of the token. The figure below displays the ratio of Mkt_Cap to TVL. The token could be underestimated if this ratio is smaller. Based on this observation, I notice that CRV and MDX are two tokens that are highly underestimated by the market. They could be the next potential tokens to the moon (not a financial advice).  
+TVL indicates the quality of the projects. The higher quality of the project, the more people are willing to deposit the money in this project. Mkt_Cap represents the market capitalization of the token. The figure below displays the ratio of Mkt_Cap to TVL. The token could be underestimated if this ratio is smaller. Based on this observation, I notice that CRV and MDX are two tokens that are highly underestimated by the market. They could be the next potential tokens to the moon (not financial advice). Note that underestimation doesn't mean that the price will rapidly increase in a short period. Other reasons may affect the price as well. For example, both the above-mentioned tokens have low Cir_Ratio, which means that they have large pre-minted tokens. A larger supply may suppress the price longer.
 ![image](https://github.com/junzhuang-code/potential_defi_tokens/blob/main/images/mc_tvl.png)
 
 2. About the top projects:  
@@ -83,5 +83,5 @@ The heatmap presents the correlation among features. I'm interested in some feat
 
 
 ### Conclusion
-In this demo, I design a scheme to find out the next potential Defi token to the moon by machine learning approach. I collect some demo data from several famous cryptocurrency websites and build machine learning models to classify which token has higher potential. Besides, I also share some observations based on the demo data.  
+In this demo, I design a scheme to find out the next potential Defi token to the moon by machine learning approach. I collect some demo data from several famous cryptocurrency websites and build machine learning models to classify which token has higher potential. Besides, I also share some observations based on the demo data. In brief, MC/TVL is a helpful feature to find out which token is underestimated. Lending and Dexes projects have higher TVL and Mkt_Cap.  
 In the future, this scheme could be extended to an online data analysis framework. More specially, we could monitor the data from the cryptocurrency websites' API and then analyze the data on-the-fly. To achieve the same goal, we could also convert the problem into a prediction task by using the Return as the label (we don't know the price in the future). Those attempts may be left for future work.
