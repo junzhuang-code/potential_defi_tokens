@@ -1,7 +1,7 @@
 # The Next Potential Defi Token To The Moon
 (1411 words, 5m38s reading time)
 
-### Author: Jun Zhuang
+#### Author: Jun Zhuang
 
 ### What is Defi?
 [Decentralized Finance](https://en.wikipedia.org/wiki/Decentralized_finance), namely Defi, is new emerging terminology for a variety of financial applications or services based on the blockchain platform. The goal of Defi is to establish a financial system that opens to every user. To fulfill this goal, Defi leads to the bull market in recent months. Most existing Defi services can be divided into five categories: Lending, DEXes, Derivatives, Payments, and Yield farming.  
