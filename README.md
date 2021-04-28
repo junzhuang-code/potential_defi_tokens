@@ -1,5 +1,5 @@
 # The Next Potential Defi Token To The Moon
-(1561 words, 6m14s reading time)
+(1570 words, 6m16s reading time)
 
 #### Author: Jun Zhuang
 
@@ -85,7 +85,7 @@ The table above presents the top five projects w.r.t. TVL and Mkt_Cap. The marke
 The table above describes the average values of TVL, Mkt_Cap, and Earning_Level for each category. I notice that Lending projects have the highest earning level (2.25) and TVL (7.71) on average, whereas Dexes projects have the highest market capital (4.10) on average. Those two categories are very popular in this bull market.  
 
 4. About the correlation:  
-The heatmap presents the correlation among features. I'm interested in some features that are helpful to the investment as follows. Cir_Ratio and Price have a higher positive correlation as shorter supply may be easier to cause the increase of the price. A similar positive correlation is also applied to TVL and Mkt_Cap as higher quality projects can attract more investors. It's expected that Cir_Ratio has a higher positive correlation to the Return but actually, it is only 0.103821.  ![image](https://github.com/junzhuang-code/potential_defi_tokens/blob/main/images/corr.png)
+The heatmap presents the correlation among features (more details can be found in the jupyter notebook). I'm interested in some features that are helpful to the investment as follows. Cir_Ratio and Price have a higher positive correlation as shorter supply may be easier to cause the increase of the price. A similar positive correlation is also applied to TVL and Mkt_Cap as higher quality projects can attract more investors. It's expected that Cir_Ratio has a higher positive correlation to the Return but actually, it is only 0.103821.  ![image](https://github.com/junzhuang-code/potential_defi_tokens/blob/main/images/corr.png)
 
 
 ### Conclusion
