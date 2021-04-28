@@ -1,0 +1,23 @@
+Data Descriptions
+
+Features:
+Name (Str): The name of the Defi project.
+Symbol (str): The symbol of the token.
+Chain (str): The blockchain that the project first deploys.
+Category (str): The Category that the project belongs to.
+TVL (float): Total value locked in Billion.
+Mkt_Cap (float): The market capital of the token in Billion.
+MC/TVL (float): The ratio of Mkt_Cap to TVL.
+Cir_Supply (int): The amount of tokens that are circulating in the market and are in public hands. It is analogous to the flowing shares in the stock market.
+Total_Supply (int): The amount of tokens that have been already created, minus any coins that have been burned. It is analogous to the outstanding shares in the stock market.
+Max_Supply (int): The maximum amount of tokens that will ever exist in the lifetime of the cryptocurrency. It is analogous to the fully diluted shares in the stock market.
+Cir_Ratio (float): The ratio of the circulating supple to the total supple.
+Price0 (float): The price ($) in the first day or in 2021-01-01 (Applied to the earlier one).
+Price1 (float): The price ($) in the collection day (2021-04-26).
+Return (float): The ratio of Price1 to Price0, which indicates the return.
+Earn_Level (int): Manual label {Return >= 10: 3, Return < 10 & >= 4: 2, Return < 4: 1}, which indicates the earning level of the token. We want to find out the potential token to the moon.
+
+References:
+https://defipulse.com/
+https://coinmarketcap.com/
+https://www.defibox.com/index
