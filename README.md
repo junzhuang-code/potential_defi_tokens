@@ -1,5 +1,5 @@
 # The Next Potential Defi Token To The Moon
-(1411 words, 5m38s reading time)
+(1561 words, 6m14s reading time)
 
 #### Author: Jun Zhuang
 
@@ -24,7 +24,7 @@ Besides, I make a brief introduction to the selected features as follows.
 * Chain (str): The blockchain that the project first deploys.
 * Category (str): The Category that the project belongs to.
 * TVL (float): Total value locked refers to the total money (USD in billion) that investors deposit in the project.
-* Mkt_Cap (float): The market capital of the token (USD in billion).
+* Mkt_Cap (float): The market capitalization of the token (USD in billion).
 * MC/TVL (float): The ratio of Mkt_Cap to TVL.
 * Cir_Supply (int): The number of tokens that are circulating in the market and are in public hands.
 * Total_Supply (int): The number of tokens that have been already created, minus any coins that have been burned.
@@ -33,6 +33,12 @@ Besides, I make a brief introduction to the selected features as follows.
 * Price0 (float): The price (USD) on the first day or in 2021-01-01 (Applied to the earlier one).
 * Price1 (float): The price (USD) on the collection day (2021-04-26).
 * Return (float): The ratio of Price1 to Price0, which indicates the return.
+
+![image](https://github.com/junzhuang-code/potential_defi_tokens/blob/main/images/tvl.png)  
+Total value locked (USD) in Defi increases from 30B to more than 60B in only 90 days (from Defipulse). It indicates that investors have a high passion to embrace the Defi. The bull market is mainly driven by Defi.  
+
+![image](https://github.com/junzhuang-code/potential_defi_tokens/blob/main/images/mc.png)  
+The total market capitalization rapidly increases in the recent four months (from Coinmarketcap).    
 
 **Preprocessing**  
 After building the dataset, I implement one-hot embedding on *'Chain'* and *'Category'* as these two features are categorical strings. After that, I drop some unnecessary features such as *'Name'* and *'Symbol'* since these two features are unique to each token and have no help to our task. Lastly, all values are normalized within [0, 1] for better training.
