@@ -1,5 +1,5 @@
 # The Next Potential Defi Token To The Moon
-(1570 words, 6m16s reading time)
+(1812 words, 7m14s reading time)
 
 #### Author: Jun Zhuang
 
