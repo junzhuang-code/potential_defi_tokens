@@ -24,7 +24,7 @@ A simple solution is possible if the goal is changed to find out the potential t
 At first, I collect a demo dataset (only 20 instances) from several famous cryptocurrency websites, such as [Defipulse](https://defipulse.com/), [Coinmarketcap](https://coinmarketcap.com/), and [Defibox](https://www.defibox.com/index). After that, I select features and label the data based on the return. More specifically, I split the return into three earning levels (1,2,3). I label the data as the high earning level when the token got the return no less than 1,000% in 2021 (to Apr. 26), whereas I label the data as the low earning level when the token got the return less than 400% in the same period. The rest data is labeled as the medium earning level. The ratio of these three levels is 8:7:5 (from low to high). The intuition is that we want to find out which token has a higher return. To do so, I convert this problem into a classification task.
 
 Besides, I make a brief introduction to the selected features as follows.
-* Name (Str): The name of the Defi project.
+* Name (str): The name of the Defi project.
 * Symbol (str): The symbol of the token.
 * Chain (str): The blockchain that the project first deploys.
 * Category (str): The Category that the project belongs to.
